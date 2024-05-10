@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ccc;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        section h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        section p {
+            line-height: 1.6;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My self Gowhar Majeed.</h1>
+    <p>Welcome to my website</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a professional web developer with expertise in HTML, CSS, and JavaScript. I have a passion for creating responsive and user-friendly websites.</p>
+    <img src="IMG.jpg" alt="About Me Image">
+    <button onclick="scrollToSection('about')">About Me</button>
+</section>
+
+
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to get in touch with me via email at gowhar.majeed1729@outlook.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Name - All rights reserved</p>
+</footer>
+
+<script>
+    function scrollToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
